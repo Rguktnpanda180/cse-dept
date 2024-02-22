@@ -1,0 +1,126 @@
+*
+{
+padding : 0px;
+margin : 0px;
+}
+html,body
+{
+font-family:Roboto,sans-serif,arial;
+font-size:14px;
+color:#3894AD;
+}
+.container
+{
+width:1200px;
+margin:0px auto;
+}
+.logo
+{
+width:75%;
+}
+.clogo
+{
+<!-- padding:middle;-->
+width:100%;
+
+}
+nav
+{
+width:100%;
+float:left;
+background:#621612;
+padding:15px 0px;
+}
+nav a
+{
+color:#fff;
+text-decoration:none;
+font-size:17px;
+border-right:1px solid #ffc3c3;
+padding:2px 20px;
+}
+.slider p
+{
+width:100%;
+}
+/* Dropdown container */
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  position: relative;
+  display: inline-block;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown content - hidden by default */
+.dropdown-content .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  top: 100%;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-content:hover .dropdown-content {
+  display: block;
+}
+.main-section
+{
+width:100px;
+float:left;
+padding:50px 0px 40px 0px;
+}
+.heading
+{
+font-size:22px;
+font-weight:500;
+border-bottom: 1px solid #ff5722;
+color:#ff5722;
+}
+.event
+{
+width:31%;
+float:left;
+margin-right:1%;
+}
+.event div{
+padding:10px;
+background:#f0f3fa;
+}
+.event ul li
+{
+margin-bottom:20px;
+width:100%;
+float:left;
+}
+.vision div
+{
+width:100%
+margin-left:20px;
+float:left;
+line-height:35px;
+font-size:50px;
+}
+#four{height:100px;}
+.S{float:right;margin:5px;padding-top:300px;}
